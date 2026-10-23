@@ -4,7 +4,7 @@ import { Link } from "react-router";
 export default function Home() {
   return (
     <div className="bg-slate-50 min-h-screen flex flex-col justify-between text-slate-800">
-      x{/* Hero Section */}
+      {/* Hero Section */}
       <main className="flex-grow max-w-4xl mx-auto px-6 py-16 text-center">
         <div className="bg-white rounded-2xl shadow-sm border border-slate-100 p-10 md:p-16">
           <span className="bg-emerald-100 text-emerald-800 text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider">
