@@ -1,9 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
     <div className="bg-slate-50 min-h-screen flex flex-col justify-between text-slate-800">
-      {/* Hero Section */}
+      x{/* Hero Section */}
       <main className="flex-grow max-w-4xl mx-auto px-6 py-16 text-center">
         <div className="bg-white rounded-2xl shadow-sm border border-slate-100 p-10 md:p-16">
           <span className="bg-emerald-100 text-emerald-800 text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider">
@@ -18,18 +19,18 @@ export default function Home() {
           </p>
 
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <a
-              href="/todo"
+            <Link
+              to="/todo"
               className="bg-emerald-600 hover:bg-emerald-700 text-white font-medium px-6 py-3 rounded-xl shadow-lg shadow-emerald-600/20 transition"
             >
               Go to My Tasks
-            </a>
-            <a
-              href="/about"
+            </Link>
+            <Link
+              to="/about"
               className="bg-slate-100 hover:bg-slate-200 text-slate-700 font-medium px-6 py-3 rounded-xl transition"
             >
               Learn More
-            </a>
+            </Link>
           </div>
         </div>
 
